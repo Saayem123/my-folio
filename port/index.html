@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>AI-Driven Web Developer</p>
+            <h1>Hi, I'm <span>Saayem</span><br>From Punjab</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <!-- <img src="images/new1.png"> -->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"><h1>About Me</h1>
+                <p><h4 style="font-weight: 500;">Hello, Mohd Saayem, a Computer Science student. With a robust understanding of AI principles and practical skills in Web Development, I'm equipped to tackle diverse challenges. Through hands-on projects and continuous learning, I've honed my expertise in Machine Learning algorithms and dynamic web applications. Beyond academics, I'm committed to leveraging technology for positive impact, demonstrated through volunteering and co-founding initiatives.</h4></p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Certification')">Certification</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('publications')">Publications</p>
+                    <p class="tab-links" onclick="opentab('Extra-Curr.')">Extra-Curr.</p>
+                </div>
+                <div class="tab-contents active-tab" id="Certification">
+                    <ul>
+                        <li><span><h2>Certification</h2></span><br><ul>
+                            <li>72 Hours of DSA</li>
+                            <li>72 Hours of OOPS</li>
+                            <li>Build Al Apps with ChatGPT, Dall-E, and GPT-4</li>
+                            <li>ChatGPT Advanced Data Analysis by VANDERBILT UNIVERSITY</li>
+                            <li>ChatGPT for Beginners Save time with Microsoft Excel</li>
+                            <li>ChatGPT Playground for Beginners Intro to NLP AI</li>
+                            <li>Generative Al for Everyone</li>
+                            <li>Generative Al Primer</li>
+                            <li>Introduction to Generative Al</li>
+                            <li>Introduction to Large Language Models by GOOGLE CLOUD</li>
+                            <li>Learn to code with Al</li>
+                            <li>Prompt Engineering For Chat GPT</li>
+                            <a href="https://drive.google.com/drive/folders/1Cf11s1-FQIWb9txLcgFFWVf7pQG52JQ2"><h3>Links</h3></a>
+                        </ul></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Dec 2023 - Feb 2024</span><br>Training Intern at InternsElite</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Ongoing</span><br>B.Tech CSE at Lovely Professional University</li>
+                        <li><span>2022</span><br>Class 12th from Sanskriti Public School.</li>
+                        <li><span>2020</span><br>Class 10th from LFS, Gorakhpur.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="publications">
+                    <ul>
+                        <li>Page Placement in Hybrid Memory Systems</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Extra-Curr.">
+                    <ul>
+                        <li><span>Founder at Pluto</span><br><h4>A Student Organization aimed at fostering Innovation and Collaboration among Students.</h4></li>
+                        <li><span>NSS (Govt. Organization)</span><br><ul>
+                            <li>2 Blood Donation Camps</li>
+                            <li>1 State Blood Donation Camp</li>
+                            <li>12 Hours - Red Cross Society</li>
+                            <li>6 Hours - Swachh Bharat Abhiyan</li>
+                            <li>30 Hours - Vistaar for Handicapped People</li>
+                            <li>60 Hours - Pre-RD(National Event)</li>
+                            <li>6 Hours - Youth India Survey</li>
+                            <li>6 Hours - Saksham(For Blind People)</li>
+                            <li>24 Hours - Youth Vibe</li>
+                        </ul></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------skills---------------- -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Languages</h2>
+                <p><h3>C++ | Python | R | Java | JavaScript | HTML/CSS | Typescript | SQL</h3></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Frameworks</h2>
+                <p><h3>TensorFlow | PyTorch | ReactJS | NextJS | NodeJS | Spring | Angular | ExpressJS | MongoDB | TailwindCSS</h3></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Tools</h2>
+                <p><h3>Google Cloud | Firebase | Git | Gitlab | NLP | Flask | Vercel</h3></p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/dataset-card.jpg">
+                <div class="layer">
+                    <h3>Loan Prediction Model</h3>
+                    <p>A predictive model using machine learning algorithms to assess loan approval likelihood based on applicant data, streamlining the loan approval process for lenders and improving efficiency.</p>
+                    <a href="https://github.com/Saayem123/web-development-project-"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Disease Prediction using Symptoms</h3>
+                    <p>Model leveraging ML techniques such as Random Forest and Gradient Boosting, focusing on symptom-based data to aid in early diagnosis and treatment.</p>
+                    <a href="https://colab.research.google.com/drive/1Dr5CjqomtgcjYAPJqFtZqCv4quvqWDZa?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1KuNbrblvwsgej9nWygfsqH-Ba5-WlBW2?usp=drive_link" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> mohdsaayam123@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9198744933</p>
+                <div class="social-icons">
+                    
+                    
+                    <a href="https://www.instagram.com/samm_roxx/"><ion-icon name="logo-instagram"></ion-icon><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohd-saayem-875363253/"><ion-icon name="logo-linkedin"></ion-icon><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1BVMc3-Rp7batMnxszgQOr4dKpkMkWJFj/view?usp=drive_link" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Saayem. Made wtih Love.</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
